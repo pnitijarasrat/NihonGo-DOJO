@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NihonGo-DOJO/static/css/main.07dbecb6.css",
+    "main.js": "/NihonGo-DOJO/static/js/main.c23e1314.js",
+    "static/js/787.dfe2e698.chunk.js": "/NihonGo-DOJO/static/js/787.dfe2e698.chunk.js",
+    "index.html": "/NihonGo-DOJO/index.html",
+    "main.07dbecb6.css.map": "/NihonGo-DOJO/static/css/main.07dbecb6.css.map",
+    "main.c23e1314.js.map": "/NihonGo-DOJO/static/js/main.c23e1314.js.map",
+    "787.dfe2e698.chunk.js.map": "/NihonGo-DOJO/static/js/787.dfe2e698.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07dbecb6.css",
+    "static/js/main.c23e1314.js"
+  ]
+}
