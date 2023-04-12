@@ -38,13 +38,13 @@ const NavBar: React.FC = () => {
             <h1 className={classes.Content}>Content</h1>
             <ul>
               <li>
-                <Link to={'/'}>Home</Link>
+                <Link to={'/NihonGo-DOJO'}>Home</Link>
               </li>
               <li>
-                <Link to={'/hiragana'}>Hiragana</Link>
+                <Link to={'/NihonGo-DOJO/hiragana'}>Hiragana</Link>
               </li>
               <li>
-                <Link to={'/katakana'}>Katakana</Link>
+                <Link to={'/NihonGo-DOJO/katakana'}>Katakana</Link>
               </li>
               <li>Kanji</li>
             </ul>
