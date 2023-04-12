@@ -1,0 +1,77 @@
+@import '../../var.css';
+
+.NavBar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  height: 50px;
+  box-shadow: var(--nav-shadow);
+  background-color: white;
+}
+
+.menuBar {
+  position: absolute;
+  height: 100vh;
+  width: 60vw;
+  top: 0;
+  right: 0;
+  box-shadow: var(--nav-shadow);
+  animation: slideLeft 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+}
+
+.leaving {
+  animation: slideRight 0.5s;
+}
+
+.menuBar .xIcon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.menuBar .Content {
+  padding: 15px 20px;
+}
+
+.menuBar ul li {
+  list-style: none;
+  width: 60vw;
+  text-align: end;
+  padding-right: 20px;
+}
+
+.blackdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(200px);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(200px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
