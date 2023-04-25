@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NihonGo-DOJO/static/css/main.07dbecb6.css",
-    "main.js": "/NihonGo-DOJO/static/js/main.6164819c.js",
+    "main.css": "/NihonGo-DOJO/static/css/main.052134c5.css",
+    "main.js": "/NihonGo-DOJO/static/js/main.7821d9e1.js",
     "static/js/787.dfe2e698.chunk.js": "/NihonGo-DOJO/static/js/787.dfe2e698.chunk.js",
     "index.html": "/NihonGo-DOJO/index.html",
-    "main.07dbecb6.css.map": "/NihonGo-DOJO/static/css/main.07dbecb6.css.map",
-    "main.6164819c.js.map": "/NihonGo-DOJO/static/js/main.6164819c.js.map",
+    "main.052134c5.css.map": "/NihonGo-DOJO/static/css/main.052134c5.css.map",
+    "main.7821d9e1.js.map": "/NihonGo-DOJO/static/js/main.7821d9e1.js.map",
     "787.dfe2e698.chunk.js.map": "/NihonGo-DOJO/static/js/787.dfe2e698.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07dbecb6.css",
-    "static/js/main.6164819c.js"
+    "static/css/main.052134c5.css",
+    "static/js/main.7821d9e1.js"
   ]
 }
