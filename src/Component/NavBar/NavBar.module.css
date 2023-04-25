@@ -12,6 +12,13 @@
   background-color: white;
 }
 
+.NavBarMenu {
+  list-style-type: none;
+  display: flex;
+  width: 40vw;
+  justify-content: space-evenly;
+}
+
 .menuBar {
   position: absolute;
   height: 100vh;
@@ -26,6 +33,15 @@
   background-color: white;
 }
 
+.NavBar button {
+  background-color: inherit;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .leaving {
   animation: slideRight 0.5s;
 }
@@ -34,6 +50,10 @@
   position: absolute;
   top: 5px;
   left: 5px;
+}
+
+.menuBar .xIcon:hover {
+  cursor: pointer;
 }
 
 .menuBar .Content {
@@ -54,6 +74,18 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media screen and (min-width:1200px) {
+  .NavBar button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .NavBarMenu {
+    display: none;
+  }
 }
 
 @keyframes slideRight {

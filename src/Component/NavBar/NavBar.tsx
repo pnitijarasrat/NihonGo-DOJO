@@ -21,12 +21,24 @@ const NavBar: React.FC = () => {
         <h2>
           NiHonGo DOJO
         </h2>
-        <div onClick={() => {
+        <ul className={classes.NavBarMenu}>
+          <li onClick={closeNav}>
+            <Link to={'/NihonGo-DOJO'}>Home</Link>
+          </li>
+          <li onClick={closeNav}>
+            <Link to={'/NihonGo-DOJO/hiragana'}>Hiragana</Link>
+          </li>
+          <li onClick={closeNav}>
+            <Link to={'/NihonGo-DOJO/katakana'}>Katakana</Link>
+          </li>
+          <li>Kanji</li>
+        </ul>
+        <button onClick={() => {
           setIsNavOpen(true)
           setIsNavLeaving(false)
         }}>
           <GiHamburgerMenu size={30} />
-        </div>
+        </button>
       </nav>
       {isNavOpen &&
         <div className={classes.blackdrop}>
