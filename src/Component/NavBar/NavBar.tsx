@@ -7,6 +7,10 @@ import classes from './NavBar.module.css'
 const NavBar: React.FC = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
   const [isNavLeaving, setIsNavLeaving] = useState(false)
+  const closeNav = () => {
+    setIsNavLeaving(false)
+    setIsNavOpen(false)
+  }
   useEffect(() => {
     if (!isNavOpen) setIsNavLeaving(false)
   }, [isNavOpen])
@@ -37,13 +41,13 @@ const NavBar: React.FC = () => {
             </div>
             <h1 className={classes.Content}>Content</h1>
             <ul>
-              <li>
+              <li onClick={closeNav}>
                 <Link to={'/NihonGo-DOJO'}>Home</Link>
               </li>
-              <li>
+              <li onClick={closeNav}>
                 <Link to={'/NihonGo-DOJO/hiragana'}>Hiragana</Link>
               </li>
-              <li>
+              <li onClick={closeNav}>
                 <Link to={'/NihonGo-DOJO/katakana'}>Katakana</Link>
               </li>
               <li>Kanji</li>

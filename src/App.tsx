@@ -12,8 +12,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/NihonGo-DOJO' element={<HomePage />} />
-        <Route path='/NihonGo-DOJO/hiragana' element={<LevelPage level={hiraganaArray} />} />
-        <Route path='/NihonGo-DOJO/katakana' element={<LevelPage level={katakana} />} />
+        <Route path='/NihonGo-DOJO/hiragana' element={<LevelPage header={"Hiragana"} level={hiraganaArray} />} />
+        <Route path='/NihonGo-DOJO/katakana' element={<LevelPage header={"Katakana"} level={katakana} />} />
       </Routes>
     </BrowserRouter>
   );
